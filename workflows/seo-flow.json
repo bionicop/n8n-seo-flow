@@ -8,10 +8,11 @@
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
       "position": [
-        448,
-        1232
+        384,
+        1088
       ],
-      "alwaysOutputData": false
+      "alwaysOutputData": false,
+      "disabled": true
     },
     {
       "parameters": {
@@ -558,8 +559,8 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
       "position": [
-        448,
-        1456
+        400,
+        1648
       ],
       "webhookId": "seo-report-webhook"
     },
@@ -682,6 +683,21 @@
         1504,
         1872
       ]
+    },
+    {
+      "parameters": {
+        "content": "## Note \n\nClick on Execute Workflow via Webhook Trigger to run it.\n\nOnce it has started, open the webhook URL in a new tab: https://n8n-service-viri.onrender.com/webhook-test/seo-report to see the report.\n\nIf URL is visited before Execution of workflow it should provide 404 error with: seo-report not registered. Click \"Execute workflow\" first.",
+        "height": 320,
+        "width": 304
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        256,
+        1280
+      ],
+      "typeVersion": 1,
+      "id": "40fcc56a-3f07-4810-a0be-1e3aa82ac585",
+      "name": "Sticky Note"
     }
   ],
   "pinData": {},
@@ -1100,7 +1116,7 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "bdb7fc10-c5db-43ba-bcc6-4f838e25c2bb",
+  "versionId": "727bd5f9-fe2d-4dfc-99a9-8a978421f6e8",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "e91777f8947607ba0f4d98fc87fc630f6563d46b59867adcd1ec87c6d9e5d95d"
